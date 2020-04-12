@@ -3,14 +3,13 @@
 This is an atempt to reuse an old Android tablet instead of putting it to trash.
 
 ## Requirements
-Android Tablet, in this case Ainol Novo 7 Aurora II
-[Syncthing App](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid "Syncthing App")
-
-[Photo Slides App](https://play.google.com/store/apps/details?id=softick.android.photoframe "Photo Slides")
-[SH Script Runner](https://play.google.com/store/apps/details?id=com.adamioan.scriptrunner "SH Script Runner")
-[Nova Launcher](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher "Nova Launcher")
-[AutoStart App](https://play.google.com/store/apps/details?id=com.autostart "AutoStart")
-ADB(https://www.xda-developers.com/install-adb-windows-macos-linux/ "ADB")
+* Android Tablet, in this case Ainol Novo 7 Aurora II
+* [Syncthing App](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid "Syncthing App")
+* [Photo Slides App](https://play.google.com/store/apps/details?id=softick.android.photoframe "Photo Slides")
+* [SH Script Runner](https://play.google.com/store/apps/details?id=com.adamioan.scriptrunner "SH Script Runner")
+* [Nova Launcher](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher "Nova Launcher")
+* [AutoStart App](https://play.google.com/store/apps/details?id=com.autostart "AutoStart")
+* [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/ "ADB")
 
 ## Setup
 I have used ADB to copy, modify and test. But use what ever method works for you. I wont go over how to install ADB, see link in requirements.
