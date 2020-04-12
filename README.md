@@ -1,6 +1,5 @@
 # Android Photo Frame
- 
-This is an atempt to reuse an old Android tablet instead of putting it to trash.
+ This is an atempt to reuse an old Android tablet instead of putting it to trash.
 
 ## Requirements
 - Android Tablet, in this case Ainol Novo 7 Aurora II
@@ -94,6 +93,10 @@ Then run:
 ```bash
 adb shell /sdcard/crontab.sh
 ```
+
+### Test
+Add some pictures, restart and hope for the best.
+
 
 ## Improvments
 Some stuff that could be improved or added:
