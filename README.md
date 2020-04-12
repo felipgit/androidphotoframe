@@ -66,9 +66,8 @@ Here is my setup:\
 ![AutoStart Setup](Screenshots/autostart_setup.png "AutoStart setup")
 
 #### Nova Launcher
-Set as default, hide some elements. Chose this mainly due to swipe up action for app drawer access. But not a real requirement for the setup.\
-Launcher with bar and without.\
-![With system bar](Screenshots/android_launcher_with_folder_with_bar.png "With system bar")![Without system bar](Screenshots/android_launcher_with_folder_hidden_bar.png "Without system bar")
+Set as default, hide some elements. Chose this mainly due to swipe up action for app drawer access. But not a real requirement for the setup. Here is my launcher with bar and without.\
+![With system bar](Screenshots/android_launcher_with_folder_with_bar.png "With system bar") ![Without system bar](Screenshots/android_launcher_with_folder_hidden_bar.png "Without system bar")
 
 
 ### Get touch coordinates
