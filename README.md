@@ -26,3 +26,18 @@ Either download them from Play Store or from some other place
 Thank you [masashi-k](https://masashi-k.blogspot.com/2013/09/hide-show-system-bar-of-android.html "masashi-k blog")
 Created two simple shell scripts to hide system bar (navigation and notifications) as the app did not do that.
 Add them to SH Script Runner with automations
+
+## Improvments
+Some stuff that could be improved or added:
+- Check screen orientation instead of sending two taps
+```bash
+dumpsys | grep 'SurfaceOrientation' | awk '{ print $2 }'
+```
+
+- Fancier update check
+Instead of using refresh.txt you could fetch a value from web or other. But works and is simple.
+
+- OpenVPN
+Install openvpn client for why not? Add remove support?
+
+
