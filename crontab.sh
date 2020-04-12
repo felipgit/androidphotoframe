@@ -11,6 +11,6 @@ mkdir -p /system/etc/cron.d/crontabs
 
 # add cronjobs
 echo '#crontab for root' > /system/etc/cron.d/crontabs/root
-echo '0 * * * * /sdcard/framenewpictures.sh >> /sdcard/framenewpictures.log' >> /system/etc/cron.d/crontabs/root
+echo '*/10 * * * * /sdcard/framenewpictures.sh >> /sdcard/framenewpictures.log' >> /system/etc/cron.d/crontabs/root
 echo '0 0 1 * * rm /sdcard/framenewpictures.log' >> /system/etc/cron.d/crontabs/root
 crontab /system/etc/cron.d/crontabs/root
