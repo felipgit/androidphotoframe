@@ -23,7 +23,7 @@ Either download them from Play Store or from some other place and run `adb insta
 ### Setup some apps
 #### Syncthing
 Folder with sync two ways\
-![](Screenshots/syncthing_folder_type_send_receive.png | width=50)
+![Syncthing Send & Receive](Screenshots/syncthing_folder_type_send_receive.png | width=50)
 #### Photo Slides
 `/data/data/softick.android.photoframe/shared_prefs/softick.android.photoframe_preferences.xml`
 what it does
