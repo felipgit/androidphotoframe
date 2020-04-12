@@ -46,7 +46,7 @@ Final setup with all scripts looks like this:\
 ![SH Script Runner Setup](Screenshots/sh_script_runner_setup.png "Final setup")
 
 Add shortcuts to your desktop for easy access:\
-![SH Script Runner Shortcut](Screenshots/sh_script_runner_shortcut.png "Add shortcut")
+![SH Script Runner Shortcut](Screenshots/sh_script_runner_add_shortcut.png "Add shortcut")
 
 #### Nova Launcher
 Set default, hide some elements. Chose this mainly due to swipe up action for app drawer access. But not a real requirement for the setup.
