@@ -24,11 +24,25 @@ Either download them from Play Store or from some other place and run `adb insta
 #### Syncthing
 Remeber to setup folder to use Send & Receive, else it wont work.\
 ![Syncthing Send & Receive](Screenshots/syncthing_folder_type_send_receive.png "Folder Type")
+
 #### Photo Slides
 Create a shortcut on your desktop/launcher.\
 Go through settings for timers, animations etc.\
-Included my [Photo Slides config](Configs/softick.android.photoframe_preferences.xml "Photo Slides config") which are located at:
+Select your camera folder (mine was: /sdcard/DCIM/Camera)\
+You can also run to add via sqlite:\
+```
+adb shell
+```
+```
+dbpath="/data/data/softick.android.photoframe/databases/PhotoFrameDB"
+picdir="/sdcard/DCIM/Camera"
+sqlite3 $dbpath "insert into folders(foldID,folder_path,folder_check) values(1,'$picdir',1)"
+```
+Have included my [Photo Slides config](Configs/softick.android.photoframe_preferences.xml "Photo Slides config") which are located at:
 `/data/data/softick.android.photoframe/shared_prefs/softick.android.photoframe_preferences.xml`
+Install config via adb:
+`adb push softick.android.photoframe_preferences.xml /data/data/softick.android.photoframe/shared_prefs/`
+
 #### SH Script Runner
 Add local scripts Hide Bar, Hide bar when connecting charger and Show Bar.\
 ![SH Script Runner Add Local Scripts](Screenshots/sh_script_runner_add_scripts.png "Local Scripts")
