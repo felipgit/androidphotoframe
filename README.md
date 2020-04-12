@@ -100,7 +100,7 @@ adb shell /sdcard/crontab.sh
 Add some pictures, restart and hope for the best.
 
 ### Add new pictures
-Upload pictures via Syncthing and add/edit textfile refresh.txt to contain the word `yes`. The script `framenewpictures.sh` should then notice that refresh.txt is yes, reload your pictures in to the database and restart Photo Slides app. Once done also change content of refresh.txt to `no`.
+Upload pictures via Syncthing and add/edit textfile refresh.txt to contain the word `yes`. The script `framenewpictures.sh` should then notice that refresh.txt is `yes`, reload your pictures in to the database and restart Photo Slides app. Once done also change content of refresh.txt to `no`.
 
 ## Improvments
 Some stuff that could be improved or added:
