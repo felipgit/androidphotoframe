@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<boolean name="oldExplorer" value="true" />
+<string name="timeMode">4</string>
+<string name="userFolder">/storage/sdcard0/DCIM</string>
+<int name="vertIndex" value="0" />
+<string name="showTime">30</string>
+<boolean name="date_en" value="true" />
+<int name="storedIndex" value="7" />
+<int name="version" value="43" />
+<string name="animationMode">1</string>
+<string name="renewalTime">10</string>
+<boolean name="upscale" value="true" />
+<boolean name="pinStatus" value="false" />
+<boolean name="dlnaEnable" value="false" />
+<string name="cropMode">3</string>
+<int name="Brightness" value="153" />
+<boolean name="ignore_errors" value="true" />
+<int name="OSDColor" value="-1023410177" />
+<boolean name="no_dither" value="true" />
+<boolean name="hidetopbar" value="true" />
+<string name="sortMode">4</string>
+<int name="maxTexture" value="4096" />
+<int name="horIndex" value="0" />
+<boolean name="startOnAC" value="true" />
+<string name="timeLocation">3</string>
+<string name="autosyncmethod">1</string>
+<boolean name="clock_en" value="true" />
+</map>
