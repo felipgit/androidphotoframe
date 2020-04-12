@@ -29,10 +29,8 @@ Remeber to setup folder to use Send & Receive, else it wont work.\
 Create a shortcut on your desktop/launcher.\
 Go through settings for timers, animations etc.\
 Select your camera folder (mine was: /sdcard/DCIM/Camera)\
-You can also run to add via sqlite:\
-```
-adb shell
-```
+You can also run to add via sqlite.\
+First `adb shell`, then:
 ```
 dbpath="/data/data/softick.android.photoframe/databases/PhotoFrameDB"
 picdir="/sdcard/DCIM/Camera"
