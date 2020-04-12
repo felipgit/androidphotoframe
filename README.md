@@ -34,13 +34,13 @@ Add local scripts Hide Bar, Hide bar when connecting charger and Show Bar.\
 ![SH Script Runner Add Local Scripts](Screenshots/sh_script_runner_add_scripts.png "Local Scripts")
 
 Hide Bar setup:\
-[SH Script Runner Hide bar at boot](Screenshots/sh_script_runner_hide_bar_at_boot.png "Hide bar at boot")
+![SH Script Runner Hide bar at boot](Screenshots/sh_script_runner_hide_bar_at_boot.png "Hide bar at boot")
 
 Hide Bar when connecting charger setup:\
-[SH Script Runner Hide bar when connecting charger](Screenshots/sh_script_runner_connect_charger.png "Hide bar connecting charger")
+![SH Script Runner Hide bar when connecting charger](Screenshots/sh_script_runner_connect_charger.png "Hide bar connecting charger")
 
 Show Bar setup:\
-[SH Script Runner Show Bar](Screenshots/sh_script_runner_show_bar_manual.png "Show Bar manual")
+![SH Script Runner Show Bar](Screenshots/sh_script_runner_show_bar_manual.png "Show Bar manual")
 
 Final setup with all scripts looks like this:\
 ![SH Script Runner Setup](Screenshots/sh_script_runner_setup.png "Final setup")
