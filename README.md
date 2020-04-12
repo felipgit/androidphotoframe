@@ -1,5 +1,5 @@
 # Android Photo Frame
-
+ 
 This is an atempt to reuse an old Android tablet instead of putting it to trash.
 
 ## Requirements
@@ -23,7 +23,7 @@ Either download them from Play Store or from some other place and run `adb insta
 ### Setup some apps
 #### Syncthing
 Folder with sync two ways\
-![alt text](Screenshots/syncthing_folder_type_send_receive.png)
+![](Screenshots/syncthing_folder_type_send_receive.png | width=50)
 #### Photo Slides
 `/data/data/softick.android.photoframe/shared_prefs/softick.android.photoframe_preferences.xml`
 what it does
