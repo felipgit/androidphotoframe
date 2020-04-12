@@ -23,13 +23,16 @@ Either download them from Play Store or from some other place and run `adb insta
 ### Setup some apps
 #### Syncthing
 Remeber to setup folder to use Send & Receive, else it wont work.\
-![Syncthing Send & Receive](Screenshots/syncthing_folder_type_send_receive.png)
+![Syncthing Send & Receive](Screenshots/syncthing_folder_type_send_receive.png "Folder Type")
 #### Photo Slides
+Create a shortcut on your desktop/launcher.\
+Go through settings for timers, animations etc.\
+Included my [Photo Slides config](Configs/softick.android.photoframe_preferences.xml "Photo Slides config") which are located at:
 `/data/data/softick.android.photoframe/shared_prefs/softick.android.photoframe_preferences.xml`
-what it does
-Short cut on desktop
 #### SH Script Runner
-Add scripts
+Add local scripts Hide Bar, Hide bar when connecting charger and Show Bar.\
+![SH Script Runner Add Local Scripts(Screenshots/sh_script_runner_add_scripts.png "Local Scripts")]
+
 Show automations
 #### Nova Launcher
 Set default
