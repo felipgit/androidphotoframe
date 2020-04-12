@@ -37,7 +37,7 @@ Hide Bar setup:\
 ![SH Script Runner Hide bar at boot](Screenshots/sh_script_runner_hide_bar_at_boot.png "Hide bar at boot")
 
 Hide Bar when connecting charger setup:\
-![SH Script Runner Hide bar when connecting charger](Screenshots/sh_script_runner_connect_charger.png "Hide bar connecting charger")
+![SH Script Runner Hide bar when connecting charger](Screenshots/sh_script_runner_hide_bar_connect_charger.png "Hide bar connecting charger")
 
 Show Bar setup:\
 ![SH Script Runner Show Bar](Screenshots/sh_script_runner_show_bar_manual.png "Show Bar manual")
@@ -53,7 +53,7 @@ Set default, hide some elements. Chose this mainly due to swipe up action for ap
 
 #### AutoStart
 Here is my setup:\
-[AutoStart Setup](Screenshots/autostart_setup.png "AutoStart setup")
+![AutoStart Setup](Screenshots/autostart_setup.png "AutoStart setup")
 
 ### Get touch coordinates
 Run `getevent -l` and press CTRL+C after touching the display\
