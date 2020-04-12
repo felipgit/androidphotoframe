@@ -3,13 +3,13 @@
 This is an atempt to reuse an old Android tablet instead of putting it to trash.
 
 ## Requirements
-* Android Tablet, in this case Ainol Novo 7 Aurora II
-* [Syncthing](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid "Syncthing")
-* [Photo Slides](https://play.google.com/store/apps/details?id=softick.android.photoframe "Photo Slides")
-* [SH Script Runner](https://play.google.com/store/apps/details?id=com.adamioan.scriptrunner "SH Script Runner")
-* [Nova Launcher](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher "Nova Launcher")
-* [AutoStart](https://play.google.com/store/apps/details?id=com.autostart "AutoStart")
-* [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/ "ADB")
+- Android Tablet, in this case Ainol Novo 7 Aurora II
+- [Syncthing](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid "Syncthing")
+- [Photo Slides](https://play.google.com/store/apps/details?id=softick.android.photoframe "Photo Slides")
+- [SH Script Runner](https://play.google.com/store/apps/details?id=com.adamioan.scriptrunner "SH Script Runner")
+- [Nova Launcher](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher "Nova Launcher")
+- [AutoStart](https://play.google.com/store/apps/details?id=com.autostart "AutoStart")
+- [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/ "ADB")
 
 ## Setup
 I have used ADB to copy, modify and test. But use what ever method works for you. This guide will not over how to install ADB, see link in requirements.
@@ -40,4 +40,16 @@ Instead of using refresh.txt you could fetch a value from web or other. But work
 - OpenVPN
 Install openvpn client for why not? Add remove support?
 
-
+## Other
+- Format storage
+```bash
+fdisk /dev/block/avnftli
+d 1
+o
+w
+n
+p
+1
+w
+mkfs.exfat /dev/block/avnftli1
+```
