@@ -23,7 +23,7 @@ Either download them from Play Store or from some other place
 ### Run some scripts
 
 ### hide/show system bar
-Thank you [masashi-k](https://masashi-k.blogspot.com/2013/09/hide-show-system-bar-of-android.html "masashi-k blog")\
+Thank you [masashi-k](https://masashi-k.blogspot.com/2013/09/hide-show-system-bar-of-android.html "masashi-k blog") for your info.\
 Created two simple shell scripts to hide system bar (navigation and notifications) as the app did not do that.\
 Add them to SH Script Runner with automations
 
