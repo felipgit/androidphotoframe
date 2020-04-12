@@ -17,8 +17,8 @@ pid () {
 # start new app instance
 frame () {
     #monkey -p $appname 1 # not as stable as tap as app seems to crash/not load data when started via this method
-    input tap 521 266 # start landscape
-    input tap 463 284 # start portrait
+    input tap 521 266 # landscape
+    input tap 463 284 # portrait
 }
 
 # wake screen if off
