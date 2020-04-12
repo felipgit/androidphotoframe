@@ -15,14 +15,15 @@ This is an atempt to reuse an old Android tablet instead of putting it to trash.
 I have used ADB to copy, modify and test. But use what ever method works for you. This guide will not over how to install ADB, see link in requirements.
 
 ### Copy some scripts
-adb push *.sh /sdcard/
+`adb push *.sh /sdcard/`
 
 ### Install some apps
 Either download them from Play Store or from some other place and run `adb install *.apk`
 
 ### Setup some apps
 #### Syncthing
-Folder with sync two ways
+Folder with sync two ways\
+![alt text](Screenshots/syncthing_folder_type_send_receive.png)
 #### Photo Slides
 `/data/data/softick.android.photoframe/shared_prefs/softick.android.photoframe_preferences.xml`
 what it does
