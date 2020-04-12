@@ -37,9 +37,13 @@ picdir="/sdcard/DCIM/Camera"
 sqlite3 $dbpath "insert into folders(foldID,folder_path,folder_check) values(1,'$picdir',1)"
 ```
 Have included my [Photo Slides config](Configs/softick.android.photoframe_preferences.xml "Photo Slides config") which are located at:
-```/data/data/softick.android.photoframe/shared_prefs/softick.android.photoframe_preferences.xml```
+```
+/data/data/softick.android.photoframe/shared_prefs/softick.android.photoframe_preferences.xml
+```
 Install config via adb:
-```adb push softick.android.photoframe_preferences.xml /data/data/softick.android.photoframe/shared_prefs/```
+```
+adb push softick.android.photoframe_preferences.xml /data/data/softick.android.photoframe/shared_prefs/
+```
 
 #### SH Script Runner
 Add local scripts Hide Bar, Hide bar when connecting charger and Show Bar.\
