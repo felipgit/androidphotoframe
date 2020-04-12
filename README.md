@@ -49,21 +49,23 @@ Add shortcuts to your desktop for easy access:\
 ![SH Script Runner Shortcut](Screenshots/sh_script_runner_add_shortcut.png "Add shortcut")
 
 #### Nova Launcher
-Set default, hide some elements. Chose this mainly due to swipe up action for app drawer access. But not a real requirement for the setup.
+Set as default, hide some elements. Chose this mainly due to swipe up action for app drawer access. But not a real requirement for the setup.
 
 #### AutoStart
 Here is my setup:\
 ![AutoStart Setup](Screenshots/autostart_setup.png "AutoStart setup")
 
 ### Get touch coordinates
-Run `getevent -l` and press CTRL+C after touching the display\
+Run `adb shell getevent -l` and press __CTRL__+__C__ after touching the display\
 Look foor POSITION_X and POSITION_Y:
 ```
+...
 /dev/input/event4: EV_ABS       ABS_Z                000000d7            
 /dev/input/event4: EV_SYN       SYN_REPORT           00000000            
 /dev/input/event5: EV_ABS       ABS_MT_POSITION_X    00000142            
 /dev/input/event5: EV_ABS       ABS_MT_POSITION_Y    000000b9            
 /dev/input/event5: EV_ABS       ABS_MT_TOUCH_MAJOR   000000c8      
+...
 ```
 Take that value and convert from HEX to DEC. Example 142 in HEX = 322 DEC.\
 Change these values in `framenewpictures.sh` for lines where `input tap`:
@@ -75,12 +77,12 @@ input tap XXX YYY # portrait
 ### Crontab
 Update crontab.sh according to your preference. Default for update is every 10 minutes and delete log 1th of every month.\
 Then run:
-```shell
+```bash
 adb shell /sdcard/crontab.sh
 ```
 
 ## Improvments
-Some stuff that could be improved or added:\
+Some stuff that could be improved or added:
 - Check screen orientation instead of sending two taps
 ```bash
 dumpsys | grep 'SurfaceOrientation' | awk '{ print $2 }'
