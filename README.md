@@ -31,13 +31,29 @@ Included my [Photo Slides config](Configs/softick.android.photoframe_preferences
 `/data/data/softick.android.photoframe/shared_prefs/softick.android.photoframe_preferences.xml`
 #### SH Script Runner
 Add local scripts Hide Bar, Hide bar when connecting charger and Show Bar.\
-![SH Script Runner Add Local Scripts(Screenshots/sh_script_runner_add_scripts.png "Local Scripts")]
+![SH Script Runner Add Local Scripts](Screenshots/sh_script_runner_add_scripts.png "Local Scripts")
 
-Show automations
+Hide Bar setup:\
+[SH Script Runner Hide bar at boot](Screenshots/sh_script_runner_hide_bar_at_boot.png "Hide bar at boot")
+
+Hide Bar when connecting charger setup:\
+[SH Script Runner Hide bar when connecting charger](Screenshots/sh_script_runner_connect_charger.png "Hide bar connecting charger")
+
+Show Bar setup:\
+[SH Script Runner Show Bar](Screenshots/sh_script_runner_show_bar_manual.png "Show Bar manual")
+
+Final setup with all scripts looks like this:\
+![SH Script Runner Setup](Screenshots/sh_script_runner_setup.png "Final setup")
+
+Add shortcuts to your desktop for easy access:\
+![SH Script Runner Shortcut](Screenshots/sh_script_runner_shortcut.png "Add shortcut")
+
 #### Nova Launcher
-Set default
+Set default, hide some elements. Chose this mainly due to swipe up action for app drawer access. But not a real requirement for the setup.
+
 #### AutoStart
-Add auto start applications
+Here is my setup:\
+[AutoStart Setup](Screenshots/autostart_setup.png "AutoStart setup")
 
 ### Get touch coordinates
 Run `getevent -l` and press CTRL+C after touching the display\
@@ -56,13 +72,12 @@ input tap XXX YYY # landscape
 input tap XXX YYY # portrait
 ```
 
-### Run some scripts
-
-
-### hide/show system bar
-Thank you [masashi-k](https://masashi-k.blogspot.com/2013/09/hide-show-system-bar-of-android.html "masashi-k blog") for your info.\
-Created two simple shell scripts to hide system bar (navigation and notifications) as the app did not do that.\
-Add them to SH Script Runner with automations
+### Crontab
+Update crontab.sh according to your preference. Default for update is every 10 minutes and delete log 1th of every month.\
+Then run:
+```shell
+adb shell /sdcard/crontab.sh
+```
 
 ## Improvments
 Some stuff that could be improved or added:\
@@ -81,7 +96,13 @@ Install openvpn client for why not? Add remove support?
 Have a script run from syncthing folder to run remote updates.
 
 ## Other
-- Format storage
+### hide/show system bar
+Thank you [masashi-k](https://masashi-k.blogspot.com/2013/09/hide-show-system-bar-of-android.html "masashi-k blog") for your info.\
+Created two simple shell scripts to hide system bar (navigation and notifications) as the app did not do that.\
+Add them to SH Script Runner with automations
+
+### Format storage
+Had to fix internal storage after a restore.
 ```bash
 fdisk /dev/block/avnftli
 d 1
